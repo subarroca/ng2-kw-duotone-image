@@ -1,9 +1,32 @@
+/**
+ * @category   Module
+ * @package    com.kiwity.ng2-kw-duotone-image.app
+ * @author     Salvador Subarroca (subarroca@gmail.com)
+**/
+
+
+
+
+// ANGULAR
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
 
+
+
+
+// EXTERNAL
+
+
+
+
+// OWN
 import { AppComponent } from './app.component';
+import { DuotoneImageModule } from './duotone-image';
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -11,8 +34,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpModule
+    DuotoneImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
