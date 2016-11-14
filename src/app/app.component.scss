@@ -1,0 +1,38 @@
+:host{
+  text-align: center;
+}
+
+.holder{
+  display: flex;
+  margin-bottom: 42px;
+}
+
+.img{
+  display: flex;
+  width: 50%;
+  margin: 16px;
+
+
+  img{
+    display: none;
+    width: 500px;
+    height: 500px;
+  }
+
+  &:hover{
+    ng2-kw-duotone-image{
+      display: none;
+    }
+
+    img{
+      display: block;
+    }
+
+  }
+}
+
+
+a{
+  color: #14143e;
+  text-decoration: none;
+}

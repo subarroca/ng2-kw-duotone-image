@@ -27,7 +27,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ng2-kw-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
 }

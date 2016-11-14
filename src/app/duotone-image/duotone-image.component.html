@@ -1,3 +1,19 @@
-<p>
-  duotone-image works!
-</p>
+<svg
+  attr.viewBox = "0 0 {{width}} {{height}}"
+  [attr.width] = width
+  [attr.height] = height
+  preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="duotone-filter">
+      <feColorMatrix
+        type="matrix"
+        [attr.values]= duotoneMatrix/>
+    </filter>    
+  </defs>
+
+  <image
+    [attr.width] = width
+    [attr.height] = height
+    filter="url(#duotone-filter)"
+    [attr.xlink:href] = src/>
+</svg>

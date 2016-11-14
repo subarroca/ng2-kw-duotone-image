@@ -25,7 +25,6 @@
   },
   "private": true,
   "dependencies": {
-    "color": "^0.11.4"
   },
   "peerDependencies": {
     "@angular/core": "^2.0.0",
